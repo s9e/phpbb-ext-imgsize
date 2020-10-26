@@ -1,0 +1,5 @@
+services:
+  s9e.imgsize.listener:
+    class: s9e\imgsize\listener
+    tags:
+      - { name: event.listener }
